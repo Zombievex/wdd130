@@ -3,17 +3,17 @@ main {
 }
 
 aside {
-    width: 20em;
+    width: 30em;
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
-    background-color: #eee;
+    background-color: #eef;
     color: #333;
     text-align: center;
 }
 
-aside image {
-    width: 200px;
+aside img {
+    width: 400px;
     height: auto;
 }
 
