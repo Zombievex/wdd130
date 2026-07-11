@@ -3,10 +3,13 @@ main {
 }
 
 aside {
-    width: 10rem;
-    margin:
-        border: 2px solid rgb(0 0 0 / 0.2) padding: 2rem;
-    background-color: #eee color: #444 text-align: center;
+    width: 20em;
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
 }
 
 aside image {
@@ -14,9 +17,22 @@ aside image {
     height: auto;
 }
 
+nav a {
+    color: blue;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: steelblue
+}
+
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 
 p {
@@ -24,7 +40,7 @@ p {
 }
 
 footer {
-    margin-top: 10px;
-    border-top: 2px solid #000;
+    margin-top: 1em;
+    border-top: 1px solid #000;
     text-align: center;
 }
