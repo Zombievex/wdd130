@@ -13,8 +13,13 @@ aside {
 }
 
 aside img {
-    width: 400px;
+    width: 200px;
     height: auto;
+}
+
+nav {
+    background-color:cadetblue;
+    padding: 2px;
 }
 
 nav a {
