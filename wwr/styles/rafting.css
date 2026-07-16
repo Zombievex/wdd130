@@ -2,7 +2,7 @@
     --first-color: #bccad6;
     --second-color: #8d9db6;
     --accent1-color: #667292;
-    --accent2-color: #f1e3dd;
+    --accent2-color: #6f70a8;
     --heading-font: "Times New Roman", "georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     text-align: center;
 }
 
@@ -50,10 +50,13 @@ nav, p, section, article {
 }
 
 
-.socialmedia{
-    text-decoration: none;
+.socialmedia {
     display: flex;
     gap: 15px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .socialmedia img{
@@ -75,7 +78,7 @@ nav, p, section, article {
 .hero article {
     position: absolute;
     top: 480px;
-    background-color: var(--first-color);
+    background-color: var(--second-color);
 }
 .hero article img {
     float: right;
