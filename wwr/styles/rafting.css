@@ -1,4 +1,4 @@
-:root{
+:root {
     --first-color: #bccad6;
     --second-color: #8d9db6;
     --accent1-color: #667292;
@@ -18,12 +18,77 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1, h2 {
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+
+    background-color: var(--first-color);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: 5fr 2fr 5fr;
+    justify-content: space-evenly;
+}
+
+.over-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.history-grid h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-photos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.side-photos img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    flex-direction: row;
+
+    background-color: var(--first-color);
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+}
+
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--first-color)
 }
@@ -44,11 +109,13 @@ h2 {
     text-align: center;
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
-
 
 .socialmedia {
     display: flex;
@@ -59,17 +126,16 @@ nav, p, section, article {
     text-decoration: none;
 }
 
-.socialmedia img{
+.socialmedia img {
     width: 5em;
     height: auto;
 }
-
 
 .hero {
     position: relative;
 }
 
-.hero img{
+.hero img {
     display: block;
     width: 100%;
     height: auto;
@@ -80,6 +146,7 @@ nav, p, section, article {
     top: 480px;
     background-color: var(--second-color);
 }
+
 .hero article img {
     float: right;
     width: 125px;
